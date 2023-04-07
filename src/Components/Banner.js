@@ -6,6 +6,26 @@ import headerImg from "../assets/img/header-img.svg";
 
 
 const Banner = () => {
+
+  const [loopNum, setLoopNum] = useState(0);
+  const [isDeleting, setIsDeleting] = useState(false);
+  const toRotate = [ "Web Developer", "Blockchain Developer",  "DevOps Engineer"];
+  const [text, setText] = useState("");
+  const [delta, setDelta] = useState(300 - Math.random() * 100);
+  const period = 2000;
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    },delta);
+    return () => { clearInterval(ticker)};
+
+  }, [text]);
+
+  const tick = () => {
+ 
+  }
+
     return (
       <section className="banner" id="home">
         <Container>
