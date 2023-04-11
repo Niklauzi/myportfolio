@@ -4,7 +4,7 @@ import Banner from './Components/Banner';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
-import logo from './logo.svg'
+import Footer from './Components/Footer';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -17,6 +17,7 @@ function App() {
      <Skills />
      <Projects />
      <Contact />
+     <Footer />
     </div>
   );
 }

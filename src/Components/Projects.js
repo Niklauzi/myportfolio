@@ -46,6 +46,7 @@ const Projects = () => {
         <Container>
           <Row>
             <Col size={12}>
+              
               <h2>Projects</h2>
               <p>KillTrack! Project</p>
               <Tab.Container id="projects-tabs" defaultActiveKey="first">
