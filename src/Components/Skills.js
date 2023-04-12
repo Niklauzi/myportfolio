@@ -48,16 +48,16 @@ const Skills = () => {
                 >
                   <div className="item">
                     <img src={meter1} alt="image" />
-                    <h5>Web3 Developer</h5>
+                    <h5>Web Developer</h5>
                   </div>
 
                   <div className="item">
-                    <img src={meter2} alt="image" />
+                    <img src={meter1} alt="image" />
                     <h5>Community Manager</h5>
                   </div>
 
                   <div className="item">
-                    <img src={meter3} alt="image" />
+                    <img src={meter1} alt="image" />
                     <h5>DeFi Research Specialist</h5>
                   </div>
 

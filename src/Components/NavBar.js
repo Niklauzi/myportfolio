@@ -3,7 +3,7 @@ import {Container, Navbar, Nav} from "react-bootstrap";
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+import navIcon3 from "../assets/img/twitter.svg";
 
 
 export const NavBar = () => {
@@ -41,7 +41,8 @@ export const NavBar = () => {
                   href="#home"
                   className={
                     activeLink === "home" ? "active navbar-link" : "navbar-link"
-                  } onClick={() => onUpdateActiveLink("home")}
+                  }
+                  onClick={() => onUpdateActiveLink("home")}
                 >
                   Home
                 </Nav.Link>
@@ -51,15 +52,19 @@ export const NavBar = () => {
                     activeLink === "skills"
                       ? "active navbar-link"
                       : "navbar-link"
-                  } onClick={() => onUpdateActiveLink("home")}
+                  }
+                  onClick={() => onUpdateActiveLink("home")}
                 >
                   Skills
                 </Nav.Link>
                 <Nav.Link
                   href="#projects"
                   className={
-                    activeLink === "project" ? "active navbar-link" : "navbar-link"
-                  } onClick={() => onUpdateActiveLink("home")}
+                    activeLink === "project"
+                      ? "active navbar-link"
+                      : "navbar-link"
+                  }
+                  onClick={() => onUpdateActiveLink("home")}
                 >
                   Projects
                 </Nav.Link>
