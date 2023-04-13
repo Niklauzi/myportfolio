@@ -340,13 +340,41 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Projects  and Stack Css ************/
 .project {
   padding: 80px 0;
   position: relative;
   background-color: black;
 }
-.project h2 {
+
+.stack {
+
+  padding: 80px 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 20%;
+  -webkit-border-radius: 20%;
+  -moz-border-radius: 20%;
+  -ms-border-radius: 20%;
+  -o-border-radius: 20%;
+  position: relative;
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -90px;
+}
+
+.stack span {
+  font-size: large;
+  font-weight: 400;
+  padding: 10px;
+
+}
+
+
+
+.project h2, .stack h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
