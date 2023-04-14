@@ -9,37 +9,38 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 const Projects = () => {
 
      const projects = [
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg1,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg2,
-    },
-    {
-      title: "Business Startup",
-      description: "Design & Development",
-      imgUrl: projImg3,
-    },
-  ];
+       {
+         title: "UnidefTimes",
+         description: "DeFi Research / Content Specialist",
+         imgUrl: projImg2,
+       },
+       {
+         title: "Unidef DAO",
+         description: "Community Manager",
+         imgUrl: projImg1,
+       },
+       {
+         title: "Susumi Capital",
+         description: "Community manager & Head of Ambassadors",
+         imgUrl: projImg2,
+       },
+       {
+         title: "BitsCrunch",
+         description:
+           "Community manager/ Regional leader Africa/ Head of Ambassadors",
+         imgUrl: projImg1,
+       },
+       {
+         title: "PicoGoSwap",
+         description: "Content Marketer",
+         imgUrl: projImg3,
+       },
+       {
+         title: "Lbank",
+         description: "Social media marketer",
+         imgUrl: projImg3,
+       },
+     ];
 
     return (
       <section className="project" id="projects">
