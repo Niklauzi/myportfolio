@@ -23,7 +23,7 @@ const Stack = () => {
                 <h3>NODEJS</h3>
               </span>
               <span>
-                <h3>EXPRESSJS</h3>
+                <h3>EXPRESS JS</h3>
               </span>
               <span>
                 <h3>MONGODB</h3>
