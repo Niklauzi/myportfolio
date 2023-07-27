@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 
 import TrackVisibility from 'react-on-screen';
@@ -12,7 +11,11 @@ const Banner = () => {
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const [index, setIndex] = useState(1);
-  const toRotate = ['Web Developer', 'Community Manager', 'DeFi Researcher'];
+  const toRotate = [
+    'Software Developer',
+    'Community Manager',
+    'DeFi Researcher',
+  ];
 
   const period = 2000;
 
@@ -70,9 +73,6 @@ const Banner = () => {
                     {"Hi there; I'm Favour I'm a"}{' '}
                     <span className='wrap'>{text}</span>
                   </h1>
-                  <button onClick={() => console.log('Connect')}>
-                    Let's connect <ArrowRightCircle size={25} />
-                  </button>
                 </div>
               )}
             </TrackVisibility>

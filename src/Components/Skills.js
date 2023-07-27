@@ -32,9 +32,7 @@ const Skills = () => {
           <Col>
             <div className='skill-bx'>
               <h2>Skills</h2>
-              <p>
-                The baddest Software Engineer Alive <br />
-              </p>
+
               <Carousel
                 responsive={responsive}
                 infinite={true}
