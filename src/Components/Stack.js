@@ -17,16 +17,16 @@ const Stack = () => {
                 <h3>JAVASCRIPT</h3>
               </span>
               <span>
+                <h3>MONGODB</h3>
+              </span>
+              <span>
+                <h3>EXPRESS</h3>
+              </span>
+              <span>
                 <h3>REACT</h3>
               </span>
               <span>
-                <h3>NODEJS</h3>
-              </span>
-              <span>
-                <h3>EXPRESS JS</h3>
-              </span>
-              <span>
-                <h3>MONGODB</h3>
+                <h3>NODE</h3>
               </span>
             </div>
           </Col>

@@ -1,11 +1,8 @@
-import React from "react";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import { Container, Row, Col } from "react-bootstrap";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
-import colorSharp from "../assets/img/color-sharp.png";
+import React from 'react';
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import { Container, Row, Col } from 'react-bootstrap';
+import colorSharp from '../assets/img/color-sharp.png';
 
 const Skills = () => {
   const responsive = {
@@ -29,45 +26,37 @@ const Skills = () => {
   };
 
   return (
-    <section className="skills" id="skills">
+    <section className='skills' id='skills'>
       <Container>
         <Row>
           <Col>
-            <div className="skill-bx">
+            <div className='skill-bx'>
               <h2>Skills</h2>
               <p>
-                The baddest Web3 Developer there is. <br />
+                The baddest Software Engineer Alive <br />
               </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
-                className="skill-slider"
+                className='skill-slider'
               >
-                <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>Web Developer</h5>
+                <div className='item'>
+                  <h5>Software Developer</h5>
                 </div>
 
-                <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>Community Manager</h5>
-                </div>
-
-                <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>DeFi Research Specialist</h5>
-                </div>
-
-                <div className="item">
-                  <img src={meter1} alt="image" />
+                <div className='item'>
                   <h5>Content writing</h5>
+                </div>
+
+                <div className='item'>
+                  <h5>DeFi Research Specialist</h5>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp} />
+      <img className='background-image-left' src={colorSharp} alt='left' />
     </section>
   );
 };
