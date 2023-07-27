@@ -15,7 +15,11 @@ const Footer = () => {
           </Col>
           <Col sm={6} className='text-center text-sm-end'>
             <div className='social-icon'>
-              <a href='/'>
+              <a
+                href='https://www.linkedin.com/in/favour-kpokpe-8380a21a8/'
+                target='_blank'
+                alt='profile'
+              >
                 <img src={navIcon1} alt='nav1' />
               </a>
               <a href='/'>

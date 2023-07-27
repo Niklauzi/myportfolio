@@ -2,6 +2,8 @@ import React from 'react';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import { Container, Row, Col } from 'react-bootstrap';
+import meter1 from '../assets/img/meter1.svg';
+
 import colorSharp from '../assets/img/color-sharp.png';
 
 const Skills = () => {
@@ -39,14 +41,18 @@ const Skills = () => {
                 className='skill-slider'
               >
                 <div className='item'>
+                  <img src={meter1} alt='images' />
                   <h5>Software Developer</h5>
                 </div>
 
                 <div className='item'>
+                  <img src={meter1} alt='images' />
+
                   <h5>Content writing</h5>
                 </div>
 
                 <div className='item'>
+                  <img src={meter1} alt='images' />
                   <h5>DeFi Research Specialist</h5>
                 </div>
               </Carousel>
