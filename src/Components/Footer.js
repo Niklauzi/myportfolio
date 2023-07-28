@@ -4,6 +4,7 @@ import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
+import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 const Footer = () => {
   return (
@@ -17,16 +18,16 @@ const Footer = () => {
             <div className='social-icon'>
               <a
                 href='https://www.linkedin.com/in/favour-kpokpe-8380a21a8/'
-                target='_blank'
+                target='blank'
                 alt='profile'
               >
-                <img src={navIcon1} alt='nav1' />
+                <BsLinkedin style={{ color: 'white', fontSize: '24px' }} />
               </a>
-              <a href='/'>
-                <img src={navIcon2} alt='nav2' />
+              <a href='https://twitter.com/Niklauzi' target='blank'>
+                <BsTwitter style={{ color: 'white', fontSize: '24px' }} />
               </a>
-              <a href='/'>
-                <img src={navIcon3} alt='nav3' />
+              <a href='https://github.com/Niklauzi' target='blank'>
+                <BsGithub style={{ color: 'white', fontSize: '24px' }} />
               </a>
             </div>
             <p> CopyRight 2023, All Right Reserved</p>
