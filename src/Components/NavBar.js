@@ -1,7 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
 import { Container, Navbar, Nav } from 'react-bootstrap';
-import logo from '../assets/img/logo.svg';
 import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs';
 
 export const NavBar = () => {
@@ -27,9 +26,7 @@ export const NavBar = () => {
   return (
     <Navbar expand='lg' className={scrolled ? 'scrolled' : ''}>
       <Container>
-        <Navbar.Brand href='#home'>
-          <img src={logo} alt='Logo' />
-        </Navbar.Brand>
+        <Navbar.Brand href='#home'></Navbar.Brand>
         <Navbar.Toggle aria-controls='basic-navbar-nav'>
           <span className='navbar-toggler-icon'></span>
         </Navbar.Toggle>
@@ -53,15 +50,7 @@ export const NavBar = () => {
             >
               Skills
             </Nav.Link>
-            <Nav.Link
-              href='#projects'
-              className={
-                activeLink === 'project' ? 'active navbar-link' : 'navbar-link'
-              }
-              onClick={() => onUpdateActiveLink('home')}
-            >
-              Projects
-            </Nav.Link>
+
             <Nav.Link
               href='#stack'
               className={
@@ -70,6 +59,15 @@ export const NavBar = () => {
               onClick={() => onUpdateActiveLink('home')}
             >
               Stack
+            </Nav.Link>
+            <Nav.Link
+              href='#projects'
+              className={
+                activeLink === 'project' ? 'active navbar-link' : 'navbar-link'
+              }
+              onClick={() => onUpdateActiveLink('home')}
+            >
+              Projects
             </Nav.Link>
           </Nav>
           <span className='navbar-text'>

@@ -7,7 +7,6 @@ const Projects = () => {
         <Row>
           <Col size={12}>
             <h2>Projects</h2>
-            <p>KillTrack! Project</p>
           </Col>
         </Row>
       </Container>

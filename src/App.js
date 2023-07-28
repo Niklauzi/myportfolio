@@ -6,7 +6,6 @@ import Projects from './Components/Projects';
 import Footer from './Components/Footer';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Stack from './Components/Stack';
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
       <NavBar />
       <Banner />
       <Skills />
-      <Stack />
       <Projects />
       <Footer />
     </div>
